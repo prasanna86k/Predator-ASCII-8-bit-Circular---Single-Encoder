@@ -1,0 +1,76 @@
+.letter-spacing-1 {
+    letter-spacing: 2px;
+}
+
+.letter-spacing-2 {
+    letter-spacing: 4px;
+}
+
+.letter-spacing-3 {
+    letter-spacing: 8px;
+}
+
+.letter-spacing-wide {
+    letter-spacing: 0.3em;
+}
+
+.max-img {
+    max-height: 150px;
+    width: auto;
+    object-fit:contain;
+}
+
+.btn-border-round{
+    border-radius: 50px;
+}
+
+.try-div{
+border-radius: 8px;
+background-color: white;
+box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
+border: 1px solid rgba(0,0,0,0.1);
+}
+    
+#txt{
+    border-radius: 10px;
+    height: 50px;
+    border: .5px solid rgba(0,0,0,0.1);
+    font-size: large;
+    font-weight: bold;
+    color: rgba(0,0,0,0.5);
+    background-color:rgba(0,0,0,0.02);
+}
+
+#txt:focus {
+    outline: none;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+ .footer {
+    margin-top: 40px;
+    padding: 10px;
+    background: #0b0d1020;
+    
+    color: #00000080;
+    font-size: 8px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 12px;
+    border-top: 1px solid #00000030;
+}
+
+.footer strong {
+    color: #00000060;
+}
